@@ -85,7 +85,7 @@
     padding: 20px;
     margin: 60px 0;
     border: 1px solid;
-    border-color:#E5E5E5;
+    border-color: #E5E5E5;
 
 }
 
@@ -284,16 +284,17 @@
 
 .table-title {
     padding: 0 90px;
-    float:left;
+    float: left;
 }
 
 .table-description {
+    text-align: left;
     margin: 60px;
-     border: 1px solid;
-    border-color:#E5E5E5;
-    border-right:transparent;
-    border-left:transparent;
-    border-top:transparent; 
+    border: 1px solid;
+    border-color: #E5E5E5;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
 }
 
 .inquiry-title {
@@ -369,6 +370,9 @@
 
 .footer-container {
     background-color: #031731;
+    height: 300px;
+    padding: 10px;
+
 }
 
 .footer-title {
@@ -377,8 +381,22 @@
     padding: 40px;
 }
 
+.contents {
+    float: left;
+    padding: 0 40px;
+}
+
+.contents2 {
+    display: inline-block;
+}
+
 .contents-title {
     color: #fff;
+    margin: 8px 0;
+}
+
+.contents-description {
+    margin: 4px;
 }
 
 .contents-description a {
