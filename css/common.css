@@ -208,6 +208,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-bottom: 1px solid;
+    border-color: #E5E5E5;
 }
 
 .feature:nth-child(odd) {
@@ -219,24 +221,23 @@
 }
 
 .feature-number {
-    margin-bottom: 32px;
     background-color: #4CB39D;
     color: #fff;
     font-size: 16px;
-    width: 32px;
-    height: 80px;
-    text-align: center;
+    text-align: left;
+    padding: 42px 12px 8px;
+    margin: 0 756px 48px 0;
 }
 
 .feature-title {
     margin-bottom: 32px;
-    padding: 0 32px;
+    padding: 0 64px;
     font-size: 32px;
     color: #4CB39D;
 }
 
 .feature-item {
-    margin: 32px;
+    margin: 32px 32px 32px 64px;
     width: 70%;
 }
 
@@ -264,7 +265,7 @@
 
 .btn-orange {
     padding: 12px 20px;
-    margin-left: 36px;
+    margin-left: 64px;
     margin-bottom: 20px;
     text-align: center;
     background-color: #ff6c00;
