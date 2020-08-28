@@ -340,9 +340,6 @@
     text-decoration: none;
 }
 
-.btn-green a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
 
 .companies-title {
     background-color: #3B4552;
