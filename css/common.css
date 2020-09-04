@@ -224,20 +224,22 @@
     background-color: #4CB39D;
     color: #fff;
     font-size: 16px;
-    text-align: left;
-    padding: 42px 12px 8px;
-    margin: 0 756px 48px 0;
+    display: block;
+    text-align: center;
+    width: 4%;
+    padding-top: 40px;
+    margin-bottom: 24px
 }
 
 .feature-title {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     padding: 0 64px;
     font-size: 32px;
     color: #4CB39D;
 }
 
 .feature-item {
-    margin: 32px 32px 32px 64px;
+    margin: 32px 32px 21px 64px;
     width: 70%;
 }
 
@@ -264,17 +266,28 @@
 }
 
 .btn-orange {
-    padding: 12px 20px;
-    margin-left: 64px;
-    margin-bottom: 20px;
+    display: inline-block;
     text-align: center;
     background-color: #ff6c00;
-    width: 25%;
+    max-width: 25%;
+    margin-left: 64px;
+    margin-bottom: 80px;
+    border-radius: 4px;
 }
 
 .btn-orange a {
     color: #fff;
     text-decoration: none;
+    padding: 16px 24px;
+    display: block;
+}
+
+.btn-orange:hover {
+    opacity: 0.7;
+}
+
+.servise {
+    background-color: #fff;
 }
 
 .servise-title {
@@ -309,7 +322,16 @@
 
 .servise-container {
     display: flex;
-    justify-content: center;
+}
+
+.servise-section {
+    width: 50%;
+    text-align: center;
+    padding: 48px 0;
+}
+
+.servise-section:nth-child(1) {
+    border-right: 2px solid #E5E5E5;
 }
 
 .servise-item {
@@ -328,18 +350,22 @@
 }
 
 .btn-green {
-    padding: 12px 20px;
-    margin: 50px auto;
+    display: inline-block;
     text-align: center;
     background-color: #4CB39D;
-    width: 45%;
+    border-radius: 4px;
 }
 
 .btn-green a {
     color: #fff;
     text-decoration: none;
+    padding: 16px 24px;
+    display: block;
 }
 
+.btn-green:hover {
+    opacity: 0.7;
+}
 
 .companies-title {
     background-color: #3B4552;
@@ -371,20 +397,31 @@
     font-weight: normal;
 }
 
+.table-container {
+    margin-left: 144px;
+    margin-top: 64px;
+    margin-bottom: 144px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+}
+
 .table-title {
-    float: left;
-    margin-left: 80px;
-    margin-right: 40px;
+    width: 10%;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-top: 1px solid #ccc;
+}
+
+.table-title:first-child {
+    border-top: 2px solid #47B39D;
 }
 
 .table-description {
-    text-align: left;
-    margin: 60px;
-    border: 1px solid;
-    border-color: #E5E5E5;
-    border-right: transparent;
-    border-left: transparent;
-    border-top: transparent;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-top: 1px solid #ccc;
 }
 
 .inquiry-title {
@@ -435,14 +472,15 @@
 .form-description input {
     margin: 0 0 30px;
     padding: 16px 32px;
-    width: 500px;
-
+    width: 100%;
+    max-width: 650px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .text {
-    margin: 0 0 30px;
-    width: 600px;
-    height: 150px
+    height: 200px
 }
 
 .btn-black {
@@ -450,19 +488,21 @@
 }
 
 .btn-black input {
-    width: 12%;
+    width: 100%;
+    max-width: 200px;
     background-color: #000;
     color: #fff;
     padding: 12px 20px;
     font-size: 16px;
     text-align: center;
+    border: none;
+    border-radius: 4px;
 }
 
 .footer-container {
     background-color: #031731;
     height: 300px;
     padding: 10px;
-
 }
 
 .footer-title {
